@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *aTextField;
+
 @end
 
 @implementation ViewController
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)didTouchWebViewButton:(id)sender {
+    self.aTextField.text = @"Test button clicked";
 }
 
 - (void)didReceiveMemoryWarning {
