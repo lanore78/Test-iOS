@@ -16,6 +16,7 @@
 		219F5B6E1D58C24800C44559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219F5B6C1D58C24800C44559 /* LaunchScreen.storyboard */; };
 		219F5B791D58C24800C44559 /* Test_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5B781D58C24800C44559 /* Test_iOSTests.m */; };
 		219F5B841D58C24800C44559 /* Test_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5B831D58C24800C44559 /* Test_iOSUITests.m */; };
+		219F5B931D58CAD300C44559 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F5B921D58CAD300C44559 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		219F5B7F1D58C24800C44559 /* Test-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		219F5B831D58C24800C44559 /* Test_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOSUITests.m; sourceTree = "<group>"; };
 		219F5B851D58C24800C44559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219F5B911D58CAD300C44559 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		219F5B921D58CAD300C44559 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				219F5B6F1D58C24800C44559 /* Info.plist */,
 				219F5B671D58C24800C44559 /* Test_iOS.xcdatamodeld */,
 				219F5B5B1D58C24800C44559 /* Supporting Files */,
+				219F5B911D58CAD300C44559 /* Person.h */,
+				219F5B921D58CAD300C44559 /* Person.m */,
 			);
 			path = "Test-iOS";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				219F5B631D58C24800C44559 /* ViewController.m in Sources */,
 				219F5B601D58C24800C44559 /* AppDelegate.m in Sources */,
+				219F5B931D58CAD300C44559 /* Person.m in Sources */,
 				219F5B5D1D58C24800C44559 /* main.m in Sources */,
 				219F5B691D58C24800C44559 /* Test_iOS.xcdatamodeld in Sources */,
 			);
@@ -502,6 +508,7 @@
 				219F5B8A1D58C24800C44559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219F5B8B1D58C24800C44559 /* Build configuration list for PBXNativeTarget "Test-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				219F5B8D1D58C24800C44559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219F5B8E1D58C24800C44559 /* Build configuration list for PBXNativeTarget "Test-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				219F5B901D58C24800C44559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

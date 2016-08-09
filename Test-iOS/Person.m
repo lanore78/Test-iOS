@@ -1,19 +1,28 @@
 //
-//  ViewController.h
+//  Person.m
 //  Test-iOS
 //
 //  Created by lanore on 2016. 8. 8..
 //  Copyright © 2016년 lanore. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "Person.h"
 
-@interface ViewController : UIViewController
+@implementation Person
+
+-(void)increase
 {
-    Person *aPerson;
+
 }
 
+-(void)increaseWithDelta:(int)delta
+{
+    age += delta;
+}
+
+-(int)getAge
+{
+    return age;
+}
 
 @end
-

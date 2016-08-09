@@ -11,6 +11,7 @@
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *aTextField;
+@property (weak, nonatomic) IBOutlet UIWebView *aWebView;
 
 @end
 
@@ -18,10 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    aPerson = [Person alloc];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)didTouchWebViewButton:(id)sender {
-    self.aTextField.text = @"Test button clicked";
+    [aPerson increaseWithDelta:10];
+    self.aTextField.text = [@([aPerson getAge]) stringValue];
+    //[[self.aWebView mainFrame] loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.naver.com"]]];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,13 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Status" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j0b-5K-6Y2">
-                                <rect key="frame" x="20" y="232" width="560" height="30"/>
+                                <rect key="frame" x="20" y="20" width="524" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="20" width="172" height="30"/>
+                                </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9c-Bc-x34">
-                                <rect key="frame" x="222" y="135" width="157" height="30"/>
-                                <state key="normal" title="Click to show Webview"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9c-Bc-x34">
+                                <rect key="frame" x="555" y="20" width="30" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="205" y="20" width="30" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="didTouchWebViewButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HfF-cS-FD9"/>
                                 </connections>
